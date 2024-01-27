@@ -42,7 +42,7 @@ const config = {
 		},
 		extend: {
 			screens: {
-				xs: '465px'
+				xs: '700px'
 				// => @media (min-width: 465px) { ... }
 			}
 		}
