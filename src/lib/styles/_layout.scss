@@ -2,7 +2,7 @@
 	@apply w-full mx-auto bg-gray-light dark:bg-gray-dark relative z-10 rounded-sm;
 
 	&-cover {
-		@apply grid xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 justify-between gap-4 mt-4;
+		@apply grid xs:grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 justify-between gap-4 mt-4;
 	}
 }
 
