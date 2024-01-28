@@ -43,7 +43,7 @@ const config = {
 		extend: {
 			screens: {
 				xs: '1000px'
-				// => @media (min-width: 465px) { ... }
+				// => @media (min-width: 1000px) { ... }
 			}
 		}
 	},

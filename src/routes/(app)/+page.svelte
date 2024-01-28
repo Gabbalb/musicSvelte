@@ -8,7 +8,7 @@
 	$: ({ newAlbums } = data);
 </script>
 
-<div class="container my-4 space-y-4">
+<div class="container my-4 space-y-4 w-screen">
 	<Coverage album={newAlbums.albums.items[0]} />
 	<h1>New album releases</h1>
 	<div class="wrapper-cover">
