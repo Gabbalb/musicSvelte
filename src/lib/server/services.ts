@@ -24,7 +24,7 @@ const errorHandler = async (items: itemObject): Promise<object> => {
  * @param limit
  * @returns
  */
-export const getNewReleases = async (fetch: any, limit = 25): Promise<object> => {
+export const getNewReleases = async (fetch: any, limit = 24): Promise<object> => {
 	const response = await fetch(`/api/browse/new-releases?limit=${limit}`);
 	return errorHandler(response);
 };
