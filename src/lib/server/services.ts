@@ -25,7 +25,7 @@ const errorHandler = async (items: itemObject): Promise<object> => {
  * @returns
  */
 export const getNewReleases = async (fetch: any, limit = 24): Promise<object> => {
-	const response = await fetch(`/api/browse/new-releases?limit=${limit}`);
+	const response = await fetch(`/api/browse/new-releases?limit=24`);
 	return errorHandler(response);
 };
 
