@@ -38,7 +38,7 @@
 
 	<div class="bg-primary-dark p-8 mt-8">
 		<div class="container">
-			<h1 class="title text-gray-light">Releated Artists</h1>
+			<h1 class="title text-gray-light text-center">Releated Artists</h1>
 			<div class="flex flex-wrap gap-4 sm:gap-7 place-content-center">
 				{#each releatedArtists.artists as releatedArtist}
 					<Artist {...releatedArtist} />
