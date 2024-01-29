@@ -10,7 +10,7 @@
 </script>
 
 <div class="container">
-	<div class="max-w-md">
+	<div class="max-w-md place-content-center">
 		<form method="POST" use:enhance class="space-y-2">
 			<div>
 				<label for="search" class="sr-only">Search</label>
