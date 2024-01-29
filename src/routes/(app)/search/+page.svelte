@@ -9,11 +9,11 @@
 	let group = 'artist';
 </script>
 
-<div class="container">
-	<div class="max-w-md place-content-center">
-		<form method="POST" use:enhance class="space-y-2">
+<div class="container flex justify-center items-center">
+	<div class="w-96">
+		<form method="POST" use:enhance class="justify-center space-y-2 h-full">
 			<div>
-				<label for="search" class="sr-only">Search</label>
+				<label for="search" class="sr-only ">Search</label>
 				<input id="search" type="text" class="form-input" placeholder="Search Artist" name="q" />
 				{#if errorHandler(form, 'q')}
 					{#each form.errors['q'] as message}
@@ -51,8 +51,8 @@
 
 {#if form?.artists}
 	<div class="container bg-primary-dark p-8 mt-4 md:rounded">
-		<h1 class="title text-gray-light">Artists</h1>
-		<div class="flex flex-wrap gap-4 sm:gap-7 justify-start">
+		<h1 class="title text-gray-light text-center">Artists</h1>
+		<div class="flex flex-wrap gap-4 sm:gap-7 place-content-center">
 			{#each form.artists.items as releatedArtist}
 				<Artist {...releatedArtist} />
 			{/each}
