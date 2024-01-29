@@ -34,6 +34,7 @@
 	</div>
 	<div class="flex-grow mt-20"><slot /></div>
 	<br>
+	<br>
 	<div class="bg-primary-dark text-gray-light space-y-2" >
 		<div class="container sm:flex text-center sm:text-left justify-between pb-8 pt-4">
 			<div class="text-sm">
