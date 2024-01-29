@@ -90,7 +90,7 @@ export const getArtistAlbums = async (
 	limit: number = 5
 ): Promise<object> => {
 	const response = await fetch(
-		`/api/artists/${id}/albums?limit=12&include_groups=album,single,appears_on,compilation`
+		`/api/artists/${id}/albums?limit=13&include_groups=album,single,appears_on,compilation`
 	);
 	const responseData = await errorHandler(response);
 	// Remove dublicate albums
